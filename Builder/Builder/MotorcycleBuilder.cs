@@ -1,11 +1,11 @@
-﻿using Singleton.Product;
+﻿using Builder.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton.Builder
+namespace Builder.Builder
 {
    abstract class MotorcycleBuilder
    {

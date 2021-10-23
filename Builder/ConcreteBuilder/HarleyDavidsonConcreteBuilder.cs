@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton.ConcreteBuilder
+namespace Builder.ConcreteBuilder
 {
     class HarleyDavidsonConcreteBuilder : Builder.MotorcycleBuilder
     {

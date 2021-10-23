@@ -41,10 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder\MotorcycleBuilder.cs" />
-    <Compile Include="ConcreteBuilder\HarleyDavidsonConcreteBuilder.cs" />
-    <Compile Include="Director\CreateMotorcycle.cs" />
-    <Compile Include="Product\Motorcycle.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
