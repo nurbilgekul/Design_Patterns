@@ -41,11 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\CarDecorator.cs" />
+    <Compile Include="Concrete\SpecialOffer.cs" />
+    <Compile Include="Interface\ICar.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Concrete\MiniCooper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interface\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
