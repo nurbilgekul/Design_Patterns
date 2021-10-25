@@ -29,6 +29,7 @@ it will create an instance, and next time that this class is called it will retu
 For Example: https://github.com/nurbilgekul/Design_Patterns/tree/master/Singleton
 
 **2.Factory Method**
+
 Creates an instance of several derived classes.
 The Factory Method design pattern defines an interface for creating an object, but let subclasses decide which class to instantiate. 
 This pattern lets a class defer instantiation to subclasses.
@@ -50,3 +51,28 @@ This is the UML class diagram:
  abstracting the process of object generation so that the type of the object instantiated can be determined at run-time. 
  
  For Example: https://github.com/nurbilgekul/Design_Patterns/tree/master/Factory_Method
+
+**3.Builder**
+
+The Builder design pattern separates the construction of a complex object from its representation so that the same construction process can create different representations.
+Builder pattern aims to “Separate the construction of a complex object from its representation so that the same construction process can create different representations.” It is used to construct a complex object step by step and the final step will return the object. The process of constructing an object should be generic so that it can be used to create different representations of the same object.
+
+Components involved in the Builder pattern are:
+
+AbstractBuilder - Contains the steps required for creating final concrete object.
+
+Builder - Constructs the Individual part of the Concrete Product implementing AbstractBuilder.
+
+Director - Construct the complete Concrete Product using Builder.
+
+Product - A Complex Object which is required to create.
+
+This is the UML class diagram:
+
+![This is an image](https://www.dofactory.com/img/diagrams/net/builder.png)
+
+
+This pattern allows you to vary a product's internal representation, encapsulates code for construction and representation and
+provides control over steps of construction process.
+
+For Example: https://github.com/nurbilgekul/Design_Patterns/tree/master/Builder
